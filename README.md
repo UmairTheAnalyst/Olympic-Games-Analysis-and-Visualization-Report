@@ -5,6 +5,21 @@ This project provides a comprehensive analysis of Olympic Games data, including 
 ## Purpose
 The goal of this project is to analyze and visualize Olympic Games data to uncover trends and insights about medal distribution, athlete performance, and event statistics.
 
+
+
+
+
+
+![alexandre-aymard-FYsW9ItVFrM-unsplash](https://github.com/user-attachments/assets/a6397e11-4320-4bdc-bb48-fc6ef63142d4)
+
+
+
+
+
+
+
+
+
 ## Summary
 The analysis covers:
 - Top-performing countries by total medals.
