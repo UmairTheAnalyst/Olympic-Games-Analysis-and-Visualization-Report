@@ -1,65 +1,54 @@
-# Olympic-Games-Analysis-and-Visualization-Report
- Analyzing Olympic data with Python using Pandas, SQL, and Matplotlib. Includes insights into medal counts, athlete performance, and historical trends through interactive visualizations.
+# Olympic Games Analysis and Visualization
 
-**Purpose**
-This project aims to analyze historical Olympic data to uncover insights into medal distribution, athlete performance, and trends across various Olympic Games. By leveraging data analysis and visualization techniques, the project provides a comprehensive overview of Olympic statistics.
+This project provides a comprehensive analysis of Olympic Games data, including athlete performances, medal tallies, and event statistics. Using Jupyter Notebook, the project explores data through visualizations and calculations, leveraging libraries such as pandas, matplotlib, and SQL.
 
+## Purpose
+The goal of this project is to analyze and visualize Olympic Games data to uncover trends and insights about medal distribution, athlete performance, and event statistics.
 
-**Datasets**
-Athlete Biography: Contains information about athletes, including height, weight, and country.
+## Summary
+The analysis covers:
+- Top-performing countries by total medals.
+- Sports with the highest number of medals.
+- Average athlete height and weight by country.
+- Medal trends over the years.
+- Gender-based medal distribution.
+- Cities that have hosted the most Olympic Games.
+- Most medaled events.
+- Athletes with the longest careers.
+- Countries with the most gold medals in a single year.
 
-Columns: athlete_id, name, sex, born, height, weight, country, country_noc, description, special_notes
-Total Rows: 155,861
-Athlete Event Details: Records the details of athletes' performances in various events.
+## Datasets
+- **Athlete Biography:** Information about athletes including height, weight, and country.
+- **Athlete Event Details:** Event participation details and medal counts.
+- **Country Profiles:** Country information.
+- **Event Results:** Details of the events including results.
+- **Games Summary:** Summary of the games held.
+- **Medal Tally History:** Historical medal counts by year and country.
 
-Columns: edition, edition_id, country_noc, sport, event, result_id, athlete, athlete_id, pos, medal, isTeamSport
-Total Rows: 316,834
-Country Profiles: Contains country codes and names.
+## Important Calculations
+- Top 10 countries by total medal count.
+- Sports with the most medals.
+- Average height and weight of athletes by country.
+- Total medals awarded by year.
+- Gender-based medal counts.
+- Cities hosting the most games.
+- Most medaled events.
+- Athletes with the most game participations.
+- Countries with the highest gold medals in a single year.
 
-Columns: noc, country
-Total Rows: 235
-Event Results: Details about the results of events.
+## Libraries Used
+- `pandas`
+- `matplotlib`
+- `SQL`
 
-Columns: result_id, event_title, edition, edition_id, sport, sport_url, result_date, result_location, result_participants, result_format, result_detail, result_description
-Total Rows: 7,394
-Games Summary: Summary of each Olympic edition.
+## Tools Used
+- Jupyter Notebook
+- Git for version control
 
-Columns: edition, edition_id, edition_url, year, city, country_flag_url, country_noc, start_date, end_date, competition_date, isHeld
-Total Rows: 64
-Medal Tally History: Historical medal counts by country and year.
+## Installation
+1. Clone the repository.
+2. Install required libraries using `pip install -r requirements.txt`.
+3. Open and run the Jupyter Notebook in your preferred environment.
 
-Columns: edition, edition_id, year, country, country_noc, gold, silver, bronze, total
-Total Rows: 1,807
-
-**Important Calculations**
-Top Countries by Total Medals: Identified the top 10 countries with the highest total medal counts.
-Top Sports by Medal Counts: Analyzed the top 5 sports with the highest total medal counts.
-Average Height and Weight by Country: Calculated average height and weight of athletes from different countries.
-Medal Counts Over Years: Analyzed total medals awarded each year.
-Medals by Gender: Compared medal counts between male and female athletes.
-Top Cities Hosting the Olympics: Identified cities that have hosted the most Olympic Games.
-Top Events by Medal Counts: Analyzed the top 10 events with the highest medal counts.
-Athletes with Longest Careers: Identified athletes who have participated in the most Olympic Games.
-Highest Gold Medals in a Single Year: Found the years and countries with the highest gold medal counts.
-
-**Libraries Used**
-Pandas: For data manipulation and analysis.
-Matplotlib: For creating visualizations.
-SQLite3: For handling SQL queries and data extraction.
-
-**Tools Used**
-Jupyter Notebook: For interactive data analysis and visualization.
-GitHub: For version control and project management.
-Pandoc: For converting Jupyter Notebooks to PDF format (if needed).
-
-**Summary**
-The project uses Python to analyze Olympic performance data, focusing on medal counts, athlete biographies, and historical trends. Data is processed and visualized to highlight key patterns and provide valuable insights into the performance of countries, sports, and athletes over time.
-
-
-**Usage**
-Run the Jupyter Notebook and execute the cells to see the data analysis and visualizations. Follow the instructions and comments in the notebook to understand the methodology and results.
-
-**License**
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Feel free to customize this README file further to suit your project’s needs!
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
